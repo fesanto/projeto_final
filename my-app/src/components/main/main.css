@@ -2,8 +2,8 @@
 .header{
     background-color: rgb(255, 165, 0);
     background-size: cover;
-    height: 50vh;
-    padding: 25px 15px;
+    height: 77vh;
+    padding: 30px 15px;
     background-position: center;
     -webkit-clip-path: polygon(0 7%, 18% 7%, 23% 0, 40% 0, 45% 7%, 76% 7%, 81% 0, 100% 0, 100% 100%, 95% 100%, 90% 90%, 65% 90%,  60% 100%, 40% 100%, 35% 93%, 20% 93%, 15% 100%, 0 100%);
     clip-path: polygon(0 7%, 18% 7%, 23% 0, 40% 0, 45% 7%, 76% 7%, 81% 0, 100% 0, 100% 100%, 95% 100%, 90% 90%, 65% 90%, 60% 100%, 40% 100%, 35% 93%, 20% 93%, 15% 100%, 0 100%);
@@ -14,12 +14,42 @@
 }
 
 .sintomas h2,
+.casos-reais h2,
 .curiosidades h2,
 .contato h2{
     font-size: 16px;
 }
 
-.contato__x{
+.sintomas td{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.casos-reais__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casos-reais__div-1,
+.casos-reais__div-2{
+    border: 2px solid rgb(255, 165, 0);
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.casos-reais h3{
+    font-size: 14px;
+}
+
+.casos-reais__div-1 ul,
+.casos-reais__div-2 ul{
+    padding: 0 30px;
+    text-align: left;
+}
+
+.contato__div{
     display: flex;
 }
 

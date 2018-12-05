@@ -9,10 +9,10 @@ import curiosidade3 from './c3.png'
 import curiosidade4 from './c4.png'
 
 
-class DemoCarousel extends React.Component {
+class Carrossel extends React.Component {
     render() {
         return (
-            <Carousel>
+            <Carousel showThumbs={false}> 
                 <div>
                     <img src={curiosidade1} />
                 </div>
@@ -30,4 +30,4 @@ class DemoCarousel extends React.Component {
     }
 };
 
-export default DemoCarousel
+export default Carrossel

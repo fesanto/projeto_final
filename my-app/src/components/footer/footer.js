@@ -10,31 +10,41 @@ const Footer = ( ) => {
     return (
         
         <footer className='footer'>
-            {/* <Container> */}
+            <Container>
+            <div className='footer__div'>
             <p>Esclarecendo a Esclerose Múltipla</p>
             <div className='footer__redes'>
-                <img
-                    className='footer__redes-fb'
-                    src={redesFb}
-                    alt='logo Facebook redondo preto'
-                />
-                <img
-                    className='footer__redes-inst'
-                    src={redesInst}
-                    alt='logo Instagram redondo preto'
-                />
-                <img
-                    className='footer__redes-email'
-                    src={redesEmail}
-                    alt='imagem do arroba preto'
-                />
-                <img
-                    className='footer__redes-whats'
-                    src={redesWhats}
-                    alt='logo WhatsApp redondo preto'
-                />
+                <a href="#">
+                    <img
+                        className='footer__redes-fb'
+                        src={redesFb}
+                        alt='logo Facebook redondo preto'
+                    />
+                </a>
+                <a href="#">
+                    <img
+                        className='footer__redes-inst'
+                        src={redesInst}
+                        alt='logo Instagram redondo preto'
+                    />
+                </a>
+                <a href="#">
+                    <img
+                        className='footer__redes-email'
+                        src={redesEmail}
+                        alt='imagem do arroba preto'
+                    />
+                </a>
+                <a href="#">
+                    <img
+                        className='footer__redes-whats'
+                        src={redesWhats}
+                        alt='logo WhatsApp redondo preto'
+                    />                
+                </a>
             </div>
-            {/* </Container> */}
+            </div>
+            </Container>
         </footer>
         
     );
