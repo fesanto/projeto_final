@@ -1,10 +1,12 @@
 import React from 'react'
 import logo from './logo-mobile.png'
+import Container from '../container/index'
 //  import Menu from './menu'
 import './navbar.css'
 
 const Navbar = (props) => {
     return (
+        <Container>
         <nav className='navbar'>
             <img
                 className='navbar__logo'
@@ -13,6 +15,7 @@ const Navbar = (props) => {
             />
             {/* <Menu {...props} /> */}
         </nav>
+        </Container>
     );
 };
 

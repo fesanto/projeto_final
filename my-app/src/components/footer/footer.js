@@ -1,4 +1,5 @@
 import React from 'react'
+import Container from '../container/index'
 import redesFb from './fb-32.png'
 import redesInst from './inst-32.png'
 import redesEmail from './email-32.png'
@@ -7,7 +8,9 @@ import './footer.css'
 
 const Footer = ( ) => {
     return (
+        
         <footer className='footer'>
+            {/* <Container> */}
             <p>Esclarecendo a Esclerose Múltipla</p>
             <div className='footer__redes'>
                 <img
@@ -31,8 +34,9 @@ const Footer = ( ) => {
                     alt='logo WhatsApp redondo preto'
                 />
             </div>
+            {/* </Container> */}
         </footer>
-
+        
     );
 };
 
