@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from './logo-mobile.png'
+import logo from './logo-desktop.png'
 import Container from '../container/index'
-//  import Menu from './menu'
+ import Menu from './menu'
 import './navbar.css'
 
 const Navbar = (props) => {
@@ -13,8 +13,8 @@ const Navbar = (props) => {
                 src={logo}
                 alt='logo esclarecendo a esclerose múltipla tem um sol e a frase nome do site em laranja'
             />
-                
-            {/* <Menu {...props} /> */}
+
+            <Menu {...props} />
         </nav>
         </Container>
     );

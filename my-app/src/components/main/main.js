@@ -1,6 +1,8 @@
 import React from 'react'
 import bruna from './woman-1.png'
 import karina from './woman-2.png'
+import helena from './woman-3.png'
+import marcos from './man-1.png'
 import abem from './abem.png'
 import ame from './ame.png'
 import Carrossel from '../carousel'
@@ -14,26 +16,27 @@ const Main = (props) => {
     return (
         <React.Fragment>
             <header id="header" className="header">
-                <h1>O que é Esclerose Múltipla?</h1>
-                <p>É uma doença inflamatória do sistema nervoso central (cérebro, medula espinhal e nervos ópticos) cujo
-                    alvo é
-                    o revestimento do nervo responsável pela condução dos impulsos elétricos do sistema nervoso central
-                    para
+                <Container>
+                    <h1>O que é Esclerose Múltipla?</h1>
+                    <p>É uma doença inflamatória do sistema nervoso central (cérebro, medula espinhal e nervos ópticos) cujo
+                        alvo é
+                        o revestimento do nervo responsável pela condução dos impulsos elétricos do sistema nervoso central
+                        para
                 o corpo e vice-versa.</p>
-                <p>Não há tratamento preventivo e não há cura, por isso, quanto mais cedo for realizado o diagnóstico,
-                maiores as chances de prevenção dos danos.</p>
-                <p>A forma mais comum de esclerose múltipla é a remitente recorrente que evolui em surtos e os sintomas ocorrem subitamente com recuperação total ou parcial. A esclerose primariamente progressiva é a mais rara e mais maligna, apresentando uma progressão dos sintomas e deixa sequelas desde o início. A terceira forma da doença é a secundariamente progressiva, uma evolução da remitente recorrente, em que o portador piora de forma lenta e progressiva.</p>
+                    <p>Não há tratamento preventivo e não há cura, por isso o diagnóstico precoce é fundamental.</p>
+                    <p>A forma mais comum de esclerose múltipla é a remitente recorrente que evolui em surtos e os sintomas ocorrem subitamente com recuperação total ou parcial. A esclerose primariamente progressiva é a mais rara e mais maligna, apresentando uma progressão dos sintomas e deixa sequelas desde o início. E a terceira forma da doença é a secundariamente progressiva, uma evolução da remitente recorrente, em que o portador piora de forma lenta e progressiva.</p>
+                </Container>
             </header>
 
             <Container>
                 <section id="sintomas" className="sintomas">
                     <h2>Sintomas</h2>
-                    <p>Os sintomas da Esclerose Múltipla são diversos e não se apresentam na mesma maneira nas pessoas, pois depende dos nervos afetados. </p>
+                    <p>Os sintomas da Esclerose Múltipla são diversos e não se apresentam na mesma maneira nas pessoas, pois dependem dos nervos afetados. Devem ocorrer por mais de 24 horas consecutivas sem que o paciente apresente alguma infecção.</p>
                 </section>
 
                 <section id="casos-reais" className="casos-reais">
                     <h2>Casos Reais</h2>
-                    <div className="casos-reais__div">
+                    <div className="casos-reais__div-a">
                         <div className="casos-reais__div-1">
                             <img src={bruna} />
                             <h3>Bruna</h3>
@@ -45,7 +48,6 @@ const Main = (props) => {
                                 <li>Após muitos exames, o diagnóstico de Esclerose Múltipla.</li>
                             </ul>
                         </div>
-
                         <div className="casos-reais__div-2">
                             <img src={karina} />
                             <h3>Karina</h3>
@@ -57,14 +59,37 @@ const Main = (props) => {
                             </ul>
                         </div>
                     </div>
+
+                    <div className="casos-reais__div-b">
+                        <div className="casos-reais__div-3">
+                            <img src={helena} />
+                            <h3>Helena</h3>
+                            <ul>
+                                <li>1º sintoma: formigamento na mão direita e dificuldades para permanecer em pé.</li>
+                                <li>Diagnóstico conclusivo após ficar com os membros superiores e inferiores paralizados.</li>
+                                <li>A rotina diária foi completamente alterada para adaptação à nova realidade que incluía visitas mensais ao médico, fisioterapia e medicamentos.</li>
+                            </ul>
+                        </div>
+                        <div className="casos-reais__div-4">
+                            <img src={marcos} />
+                            <h3>Marcos</h3>
+                            <ul>
+                                <li>1º sintoma: sensação de cisco no olho e formigamento nos braços.</li>
+                                <li>Após vários diagnósticos inconclusivos e tratamentos ineficazes, com um lado inteiro do corpo paralisado recebeu o diagnóstico de esclerose múltipla.</li>
+                                <li>A evolução foi muita rápida: perda da visão periférica, cãimbras severas e tremores. </li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
 
                 <section id="curiosidades" className="curiosidades">
                     <h2>Curiosidades</h2>
-                    <Carrossel />
+                    <div className="curiosidades__carrossel">
+                        <Carrossel />
+                    </div>
                 </section>
 
-                <section id="contatp" className='contato'>
+                <section id="contato" className="contato">
                     <h2>Contato</h2>
                     <div className="contato__div">
                         <div className="contato__form">
@@ -87,7 +112,7 @@ const Main = (props) => {
                     </div>
                 </section>
             </Container>
-        </React.Fragment>
+        </React.Fragment >
     );
 };
 

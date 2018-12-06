@@ -1,26 +1,28 @@
 import React from 'react'
+import Container from '../../container'
+import menu from './menu-32.png'
+import './menu.css'
 
 
-<div class="container" id="menuToggle">
-    <input type="checkbox" />
-    <span></span>
-    <span></span>
-    <span></span>
-    <ul class="burguer-menu-list">
-        <a href='#header'>
-            <li class="list-item">O que é</li>
-        </a>
-        <a href='#sintomas'>
-            <li class="list-item">Sintomas</li>
-        </a>
-        <a href='#curiosidades'>
-            <li class="list-item">Curiosidades</li>
-        </a>
-        <a href='#contato'>
-            <li class="list-item">Contato</li>
-        </a>
-        <li><button class="list-item logout-btn-burguer">Sair</button></li>
-    </ul>
-</div>
+
+const Menu = (props) => {
+    return (
+        <Container>
+                <ul className='navbar__menu-list'>
+                        <a href="#header"><li>O que é?</li></a>
+                        <a href="#sintomas"><li>Sintomas</li></a>
+                        <a href="#casos-reais"><li>Casos Reais</li></a>
+                        <a href="#curiosidades"><li>Curiosidades</li></a>
+                        <a href="#contato"><li>Contato</li></a>
+                    </ul>
+                <div className='navbar__menu-barras'>
+                    <a href="#"><img src={menu} /></a>
+                </div>
+        </Container>
+    )
+}
+
+
+
 
 export default Menu
