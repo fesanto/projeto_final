@@ -15,22 +15,22 @@ class Carrossel extends React.Component {
         return (
             <Carousel showThumbs={false}> 
                 <div>
-                    <img src={curiosidade1} />
+                    <img src={curiosidade1} alt='card com curiosidades com fundo laranja e letras pretas'/>
                 </div>
                 <div>
-                    <img src={curiosidade2}/>
+                    <img src={curiosidade2} alt='card com curiosidades com fundo laranja e letras pretas'/>
                 </div>
                 <div>
-                    <img src={curiosidade3} />
+                    <img src={curiosidade3} alt='card com curiosidades com fundo laranja e letras pretas'/>
                 </div>
                 <div>
-                    <img src={curiosidade4} />
+                    <img src={curiosidade4} alt='card com curiosidades com fundo laranja e letras pretas'/>
                 </div>
                 <div>
-                    <img src={curiosidade5} />
+                    <img src={curiosidade5} alt='card com curiosidades com fundo laranja e letras pretas'/>
                 </div>
                 <div>
-                    <img src={curiosidade6} />
+                    <img src={curiosidade6} alt='card com curiosidades com fundo laranja e letras pretas'/>
                 </div>
             </Carousel>
         );
