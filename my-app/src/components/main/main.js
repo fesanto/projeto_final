@@ -38,7 +38,7 @@ const Main = (props) => {
                     <h2>Casos Reais</h2>
                     <div className='casos-reais__div-a'>
                         <div className='casos-reais__div-1'>
-                            <img src={bruna} />
+                            <img src={bruna} alt='desenho de um busto e rosto feminino num fundo vermelho com cabelos catanhos até o ombro, pele clara, vestindo uma camiseta preta e um casaco vermelho'/>
                             <h3>Bruna</h3>
                             <ul>
                                 <li>1º sintoma: paralisia muscular.</li>
@@ -49,7 +49,7 @@ const Main = (props) => {
                             </ul>
                         </div>
                         <div className="casos-reais__div-2">
-                            <img src={karina} />
+                            <img src={karina} alt='desenho de um busto e rosto feminino num fundo azul com cabelos catanhos até a base do pescoço, pele clara, vestindo uma camisa azul de gola branca'/>
                             <h3>Karina</h3>
                             <ul>
                                 <li>1º sintoma:  fraqueza e dor generalizada.</li>
@@ -62,7 +62,7 @@ const Main = (props) => {
 
                     <div className='casos-reais__div-b'>
                         <div className='casos-reais__div-3'>
-                            <img src={helena} />
+                            <img src={helena} alt='desenho de um busto e rosto feminino num fundo azul com cabelos vermelhos até a base do pescoço, pele clara, vestindo uma camisa azul de gola branca'/>
                             <h3>Helena</h3>
                             <ul>
                                 <li>1º sintoma: formigamento na mão direita e dificuldades para permanecer em pé.</li>
@@ -71,7 +71,7 @@ const Main = (props) => {
                             </ul>
                         </div>
                         <div className='casos-reais__div-4'>
-                            <img src={marcos} />
+                            <img src={marcos} alt='desenho de um busto e rosto masculino num fundo laranja com cabelos pretos curtos, barba preta, pele clara, vestindo uma blusa verelha de gola branca'/>
                             <h3>Marcos</h3>
                             <ul>
                                 <li>1º sintoma: sensação de cisco no olho e formigamento nos braços.</li>
@@ -99,14 +99,15 @@ const Main = (props) => {
                             <Input id='email' type='email' placeholder='Digite seu e-mail' />
                             <Label id='mensagem'>Mensagem</Label>
                             <textarea placeholder='Deixe-nos uma mensagem' cols="25" rows="5" maxLength='200'></textarea>
-                            <button className='button'>Enviar</button>
+                            <button submit='' className='button'>Enviar</button>
                         </div>
                         <div className='contato__links'>
+                            <p>Parceiros</p>
                             <a href="http://abem.org.br/" target='_blank'>
-                                <img src={abem} />
+                                <img src={abem} alt='logo da Associação Brasileira de Esclerose Múltipla com uma flor e letras em verde' />
                             </a>
                             <a href="https://amigosmultiplos.org.br/" target='_blank'>
-                                <img src={ame} />
+                                <img src={ame} alt='logo da Amigos Múltiplos pela Esclerose com o desenho da palma de uma mão esqueda com os dedos em verde claro, um coração e letras em laranja na palma'/>
                             </a>
                         </div>
                     </div>
