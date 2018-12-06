@@ -15,7 +15,7 @@ import './main.css'
 const Main = (props) => {
     return (
         <React.Fragment>
-            <header id="header" className="header">
+            <header id='header' className='header'>
                 <Container>
                     <h1>O que é Esclerose Múltipla?</h1>
                     <p>É uma doença inflamatória do sistema nervoso central (cérebro, medula espinhal e nervos ópticos) cujo
@@ -29,15 +29,15 @@ const Main = (props) => {
             </header>
 
             <Container>
-                <section id="sintomas" className="sintomas">
+                <section id='sintomas' className='sintomas'>
                     <h2>Sintomas</h2>
                     <p>Os sintomas da Esclerose Múltipla são diversos e não se apresentam na mesma maneira nas pessoas, pois dependem dos nervos afetados. Devem ocorrer por mais de 24 horas consecutivas sem que o paciente apresente alguma infecção.</p>
                 </section>
 
-                <section id="casos-reais" className="casos-reais">
+                <section id='casos-reais' className='casos-reais'>
                     <h2>Casos Reais</h2>
-                    <div className="casos-reais__div-a">
-                        <div className="casos-reais__div-1">
+                    <div className='casos-reais__div-a'>
+                        <div className='casos-reais__div-1'>
                             <img src={bruna} />
                             <h3>Bruna</h3>
                             <ul>
@@ -60,8 +60,8 @@ const Main = (props) => {
                         </div>
                     </div>
 
-                    <div className="casos-reais__div-b">
-                        <div className="casos-reais__div-3">
+                    <div className='casos-reais__div-b'>
+                        <div className='casos-reais__div-3'>
                             <img src={helena} />
                             <h3>Helena</h3>
                             <ul>
@@ -70,7 +70,7 @@ const Main = (props) => {
                                 <li>A rotina diária foi completamente alterada para adaptação à nova realidade que incluía visitas mensais ao médico, fisioterapia e medicamentos.</li>
                             </ul>
                         </div>
-                        <div className="casos-reais__div-4">
+                        <div className='casos-reais__div-4'>
                             <img src={marcos} />
                             <h3>Marcos</h3>
                             <ul>
@@ -82,17 +82,17 @@ const Main = (props) => {
                     </div>
                 </section>
 
-                <section id="curiosidades" className="curiosidades">
+                <section id='curiosidades' className='curiosidades'>
                     <h2>Curiosidades</h2>
-                    <div className="curiosidades__carrossel">
+                    <div className='curiosidades__carrossel'>
                         <Carrossel />
                     </div>
                 </section>
 
-                <section id="contato" className="contato">
+                <section id='contato' className='contato'>
                     <h2>Contato</h2>
-                    <div className="contato__div">
-                        <div className="contato__form">
+                    <div className='contato__div'>
+                        <div className='contato__form'>
                             <Label htmlFor='name'>Nome</Label>
                             <Input id='name' type='text' placeholder='Digite seu nome' />
                             <Label htmlFor='email'>E-mail</Label>
@@ -101,11 +101,11 @@ const Main = (props) => {
                             <textarea placeholder='Deixe-nos uma mensagem' cols="25" rows="5" maxLength='200'></textarea>
                             <button className='button'>Enviar</button>
                         </div>
-                        <div class="contato__links">
-                            <a href="http://abem.org.br/" target="_blank">
+                        <div className='contato__links'>
+                            <a href="http://abem.org.br/" target='_blank'>
                                 <img src={abem} />
                             </a>
-                            <a href="https://amigosmultiplos.org.br/" target="_blank">
+                            <a href="https://amigosmultiplos.org.br/" target='_blank'>
                                 <img src={ame} />
                             </a>
                         </div>

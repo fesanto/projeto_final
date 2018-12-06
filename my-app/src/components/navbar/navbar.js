@@ -13,7 +13,6 @@ const Navbar = (props) => {
                 src={logo}
                 alt='logo esclarecendo a esclerose múltipla tem um sol e a frase nome do site em laranja'
             />
-
             <Menu/>
         </nav>
         </Container>
