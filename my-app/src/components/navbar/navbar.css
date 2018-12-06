@@ -1,9 +1,5 @@
+/* iniciando em 320px */
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    width: 100%;
-    height: auto;
     margin: 8px 0;
 }
 
@@ -12,8 +8,13 @@
 }
 
 @media (min-width: 768px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .navbar__logo{
-        width: 40%;
+        width: 35%;
     }
 }
 

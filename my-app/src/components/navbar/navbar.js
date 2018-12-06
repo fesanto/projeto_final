@@ -14,7 +14,7 @@ const Navbar = (props) => {
                 alt='logo esclarecendo a esclerose múltipla tem um sol e a frase nome do site em laranja'
             />
 
-            <Menu {...props} />
+            <Menu/>
         </nav>
         </Container>
     );
