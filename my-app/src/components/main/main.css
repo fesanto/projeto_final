@@ -2,7 +2,7 @@
 .header{
     background-color: rgb(255, 165, 0);
     background-size: cover;
-    height: 90vh;
+    height: auto;
     padding: 30px 0;
     background-position: center;
     -webkit-clip-path: polygon(0 4%, 18% 4%, 23% 0, 40% 0, 45% 4%, 76% 4%, 81% 0, 100% 0, 100% 100%, 95% 100%, 90% 96%, 65% 96%, 60% 100%, 40% 100%, 35% 96%, 20% 96%, 15% 100%, 0 100%);
@@ -119,13 +119,13 @@ textarea:focus{
 
 @media (min-width: 420px){
     .header{
-        height: 77vh;
+        height: auto;
     }
 }
 
 @media (min-width: 768px){
     .header{
-        height: 69vh;
+        height: auto;
     }
     .header h1{
         font-size: 24px;
@@ -163,7 +163,7 @@ textarea:focus{
 
 @media (min-width: 1024px){
     .header{
-        height: 62vh;
+        height: auto;
     }
     .casos-reais__div-a,
     .casos-reais__div-b{
@@ -210,7 +210,7 @@ textarea:focus{
 
 @media (min-width: 1440px){
     .header{
-        height: 68vh;
+        height: auto;
         -webkit-clip-path: polygon(0 7%, 10% 7%, 13% 0, 30% 0, 33% 7%, 50% 7%, 53% 0, 65% 0, 68% 9%, 76% 9%, 79% 0, 90% 0, 93% 7%, 100% 7%, 100% 100%, 95% 100%, 92% 90%, 75% 90%, 72% 100%, 60% 100%, 57% 95%, 40% 95%, 37% 100%, 28% 100%, 25% 93%, 18% 93%, 15% 100%, 0 100%);
         clip-path: polygon(0 7%, 10% 7%, 13% 0, 30% 0, 33% 7%, 50% 7%, 53% 0, 65% 0, 68% 9%, 76% 9%, 79% 0, 90% 0, 93% 7%, 100% 7%, 100% 100%, 95% 100%, 92% 90%, 75% 90%, 72% 100%, 60% 100%, 57% 95%, 40% 95%, 37% 100%, 28% 100%, 25% 93%, 18% 93%, 15% 100%, 0 100%);
     }
